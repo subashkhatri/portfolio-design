@@ -1,0 +1,326 @@
+/*---------------------------------------
+     Main Body section              
+  -----------------------------------------*/
+body {
+  color: #555;
+  height: 100%;
+  /* max-width: 80em; */
+  font-family: "Arial", "Helvetica", sans-serif;
+  line-height: 1.5;
+  padding: 0em 2em;
+  font-size: 16px;
+  background-color: #3c0f0f;
+  text-decoration: none;
+}
+
+/*---------------------------------------
+     Main container section              
+  -----------------------------------------*/
+  .main-container {
+  background: floralwhite;
+  margin: 0px 0px 0px 15px;
+
+}
+
+h1 {
+  font-size: 2em;
+  color: #2F4F4f;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+/*---------------------------------------
+     Button section              
+  -----------------------------------------*/
+.section-btn {
+  background-color: transparent;
+  border: 3px solid #232B2B;
+  border-radius: 100px;
+  color: #232B2B;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  padding: 12px 35px;
+  margin-left: 13%;
+  margin-top: 30px;
+  transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.section-btn:hover {
+  background: #E3AE57;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.btn-success:focus {
+  background-color: #000;
+  border-color: transparent;
+}
+
+.section-contact-btn {
+  background-color: transparent;
+  border: 3px solid #232B2B;
+  border-radius: 100px;
+  color: #232B2B;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  padding: 15px 36px;
+  margin-left: 15%;
+  margin-top: 42px;
+  transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.section-contact-btn:hover {
+  background: #E3AE57;
+  border-color: transparent;
+  color: #ffffff;
+}
+/*---------------------------------------
+     Header section              
+  -----------------------------------------*/
+.navbar-section {
+  display: flex;
+}
+
+.navbar-section div {
+  padding: 15px;
+}
+
+.header {
+  flex: 2;
+}
+
+.main-logo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.19em;
+}
+
+.main-logo span {
+  color: Darkorange;
+}
+
+/*---------------------------------------
+     Navigation section              
+  -----------------------------------------*/
+.navbar {
+  flex: 1;
+
+}
+
+.navbar .fixed-navbar ul {
+  display: flex;
+  box-shadow: 9px 10px #999;
+  list-style-type: none;
+  background-color: darkgrey;
+
+}
+
+.navbar li a {
+  margin-left: 20px;
+  display: block;
+  color: #2F4F4f;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Darkorange;
+}
+
+/*---------------------------------------
+     Project section              
+  ----------------------------------------*/
+.container-wrapper {
+  display: flex;
+  align-items: centre;
+
+}
+
+.container-wrapper div {
+  padding: 14px;
+}
+
+.profile-img {
+  flex: 1;
+  margin-left: 2px;
+  box-shadow: 2px 3px #555;
+  border-style: double;
+  border-width: thin;
+  border-color: #2F4F4f;
+}
+
+.general-informaition {
+  margin-left: 25px;
+  ;
+}
+
+.general-informaition h3 {
+  color: #3c0f0f;
+}
+
+section {
+  margin-right: 3px;
+  flex: 1;
+  text-decoration-style: solid;
+  color: #2F4F4f;
+  text-align: center;
+  background-color: #999;
+}
+
+/*---------------------------------------
+     Project section              
+  -----------------------------------------*/
+.row-project {
+  display: flex;
+}
+
+.row-project div {
+  padding: 15px;
+
+}
+
+.box1 {
+  flex: 1;
+}
+
+.box2 {
+  flex: 1;
+  align-content: center;
+}
+
+.box3 {
+  flex: 1;
+}
+
+.img-responsive {
+  width: 300px;
+  height: 200px;
+}
+
+.div-highlight {
+  font-size: 28px;
+  padding-left: 18px;
+}
+
+.div-par {
+  padding-left: 18px;
+  color: darkslategrey;
+
+}
+
+.row-project:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 20px;
+}
+
+/*---------------------------------------
+     Map section              
+  -----------------------------------------*/
+.mapo-container .row {
+  display: flex;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.mapo-section {
+  flex: 2;
+  /* position: relative; */
+  /* padding-top: 3%;   */
+
+}
+
+.contactform {
+  flex: 2;
+  display: block;
+  box-shadow: 10px 30px 15px 15px #DCDCDC;
+  padding: 40px;
+  margin-right: 5%;
+}
+
+.contactform h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  letter-spacing: 0.19em;
+  color: #2F4F4f;
+}
+
+.contactform h2 span {
+  color: Darkorange;
+}
+
+input {
+  width: 85%;
+  height: 40px;
+}
+textarea{
+  width: 85%;
+}
+
+/*---------------------------------------
+     Footer section              
+  -----------------------------------------*/
+
+.container-footer {
+  padding: 60px 0px;
+}
+
+.container-footer .row {
+  padding-left: 5%;
+}
+
+.container-footer .row .footer-copyright {
+  text-align: center;
+}
+
+
+/*---------------------------------------
+   Social icon             
+  -----------------------------------------*/
+
+.social-icon {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  border: 2px solid transparent;
+  color: #999;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 22px 4px 10px 4px;
+}
+
+.social-icon li a:hover {
+  background: #E3AE57;
+  border-color: #ffffff;
+  color: #2F4F4f;
+  transform: scale(1.1);
+}
