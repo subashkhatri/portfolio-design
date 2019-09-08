@@ -334,6 +334,116 @@ textarea {
 /*---------------------------------------
      Responsive              
   -----------------------------------------*/
+  @media only screen and (max-width: 700px) {
+    body {
+      line-height: 1.5;
+      font-size: 12px;
+      max-width: 700px;
+    }
+  
+    h1 {
+      font-size: 3.5em;
+      color: #2F4F4f;
+    }
+  
+    h2 {
+      font-size: 2.5em;
+    }
+  
+    h3 {
+      font-size: 1.9em;
+    }
+    p{
+      font-size: 1.6em;
+    }
+  
+  /*---------------------------------------
+       Navigation section              
+    ----------------------------------------*/  
+    .navbar-section {
+      display: inline-block;
+    }
+    .navbar-section div {
+      padding: 5px;
+    }
+
+  
+  /*---------------------------------------
+       Profile section              
+    ----------------------------------------*/
+  .container-wrapper {
+    display: block;
+  
+  }
+  section {
+    margin-left: 3px;
+  }
+  
+    /*---------------------------------------
+       Project section              
+    -----------------------------------------*/
+  .row-project {
+    display: block;
+  }
+  
+  .row-project div {
+    padding: 15px;
+    margin-left: 10%;
+   margin-bottom: 5%;
+  
+  }
+  
+  .box1 {
+    width: 50%;
+    
+  }
+  
+  .box2 {
+    width: 50%;
+  }
+  
+  .box3 {
+    width: 50%;
+  }
+  
+  .img-responsive {
+    width: 390px;
+    height: 250px;
+  }
+  
+  .div-highlight {
+    font-size: 2.6em;
+    letter-spacing: 0.2em;
+    padding-left: 45px;
+  }
+  
+  .div-par {
+    font-size: 2em;
+    letter-spacing: 0.17em;
+    padding-left: 45px;
+  
+  }
+    /*---------------------------------------
+       Map section              
+    -----------------------------------------*/
+    .mapo-container .row {
+     display: block; 
+    }
+    .mapo-section iframe{
+      padding-top: 25px;
+      margin-right: 5%;
+      width: 490px;
+      height: 400px;
+    }
+  
+  .contactform h2 {
+    font-size: 2.6em;
+    letter-spacing: 0.2em;
+  
+  }
+  
+  }
+  
 
 @media only screen and (max-width: 900px) {
   body {
@@ -453,6 +563,7 @@ section {
 }
 
 }
+
 @media only screen and (max-width: 1024px) {
   body {
     line-height: 1.5;
@@ -565,3 +676,4 @@ section {
     width: 100%;
   }
 }
+
