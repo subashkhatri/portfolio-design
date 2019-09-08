@@ -16,7 +16,7 @@ body {
 /*---------------------------------------
      Main container section              
   -----------------------------------------*/
-  .main-container {
+.main-container {
   background: floralwhite;
   margin: 0px 0px 0px 15px;
 
@@ -34,6 +34,7 @@ h2 {
 h3 {
   font-size: 1em;
 }
+
 /*---------------------------------------
      Button section              
   -----------------------------------------*/
@@ -85,6 +86,7 @@ h3 {
   border-color: transparent;
   color: #ffffff;
 }
+
 /*---------------------------------------
      Header section              
   -----------------------------------------*/
@@ -139,7 +141,7 @@ li a:hover {
 }
 
 /*---------------------------------------
-     Project section              
+     Profile section              
   ----------------------------------------*/
 .container-wrapper {
   display: flex;
@@ -162,7 +164,6 @@ li a:hover {
 
 .general-informaition {
   margin-left: 25px;
-  ;
 }
 
 .general-informaition h3 {
@@ -241,6 +242,10 @@ section {
   /* padding-top: 3%;   */
 
 }
+.mapo-section iframe{
+  width: 580px;
+  height: 500px;
+}
 
 .contactform {
   flex: 2;
@@ -265,7 +270,8 @@ input {
   width: 85%;
   height: 40px;
 }
-textarea{
+
+textarea {
   width: 85%;
 }
 
@@ -323,4 +329,239 @@ textarea{
   border-color: #ffffff;
   color: #2F4F4f;
   transform: scale(1.1);
+}
+
+/*---------------------------------------
+     Responsive              
+  -----------------------------------------*/
+
+@media only screen and (max-width: 900px) {
+  body {
+    line-height: 1.5;
+    font-size: 12px;
+    max-width: 620px;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    color: #2F4F4f;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.9em;
+  }
+  p{
+    font-size: 1.6em;
+  }
+
+/*---------------------------------------
+     Navigation section              
+  ----------------------------------------*/  
+  .navbar-section {
+    display: block;
+  }
+  .navbar-section div {
+    padding: 3.9px;
+  }
+  .main-logo h1 {
+    font-size: 3.3em;
+    letter-spacing: 0.21em;
+  }
+  .navbar li a {
+    font-size: 1.7em;
+  }
+
+/*---------------------------------------
+     Profile section              
+  ----------------------------------------*/
+.container-wrapper {
+  display: block;
+
+}
+.profile-img {
+  margin-left: 18%;
+}
+section {
+  margin-left: 3px;
+}
+
+  /*---------------------------------------
+     Project section              
+  -----------------------------------------*/
+.row-project {
+  display: block;
+}
+
+.row-project div {
+  padding: 15px;
+  margin-left: 10%;
+ margin-bottom: 5%;
+
+}
+
+.box1 {
+  width: 60%;
+  
+}
+
+.box2 {
+  width: 60%;
+}
+
+.box3 {
+  width: 60%;
+}
+
+.img-responsive {
+  width: 390px;
+  height: 250px;
+}
+
+.div-highlight {
+  font-size: 2.6em;
+  letter-spacing: 0.2em;
+  padding-left: 45px;
+}
+
+.div-par {
+  font-size: 2em;
+  letter-spacing: 0.17em;
+  padding-left: 45px;
+
+}
+  /*---------------------------------------
+     Map section              
+  -----------------------------------------*/
+  .mapo-container .row {
+   display: block; 
+  }
+  .mapo-section iframe{
+    padding-top: 25px;
+    margin-left: 2%;
+    width: 490px;
+    height: 400px;
+  }
+
+.contactform h2 {
+  font-size: 2.6em;
+  letter-spacing: 0.2em;
+
+}
+
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    line-height: 1.5;
+    font-size: 16px;
+    max-width: 1020px;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    color: #2F4F4f;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  p{
+    font-size: 1.3em;
+  }
+
+/*---------------------------------------
+     Navigation section              
+  ----------------------------------------*/  
+  .navbar-section {
+    display: flex;
+  }
+  .navbar-section div {
+    padding: 2.9px;
+  }
+  .main-logo h1 {
+    font-size: 2.4em;
+    letter-spacing: 0.21em;
+  }
+  .navbar li a {
+    font-size: 1.0em;
+  }
+
+/*---------------------------------------
+     Profile section              
+  ----------------------------------------*/
+.container-wrapper {
+  display: block;
+
+}
+.profile-img {
+  margin-left: 38%;
+}
+section {
+  margin-left: 3px;
+}
+
+  /*---------------------------------------
+     Project section              
+  -----------------------------------------*/
+.row-project {
+  display: block;
+}
+
+.row-project div {
+  padding: 15px;
+  margin-left: 20%;
+ margin-bottom: 5%;
+
+}
+
+.box1 {
+  width: 50%;
+  
+}
+
+.box2 {
+  width: 50%;
+}
+
+.box3 {
+  width: 50%;
+}
+
+.img-responsive {
+  width: 390px;
+  height: 250px;
+}
+
+.div-highlight {
+  font-size: 2.3em;
+  letter-spacing: 0.2em;
+  padding-left: 45px;
+}
+
+.div-par {
+  font-size: 1.8em;
+  letter-spacing: 0.14em;
+  padding-left: 45px;
+
+}
+  /*---------------------------------------
+     Map section              
+  -----------------------------------------*/
+  .mapo-container .row {
+   display: block;
+   padding-left: 40px; 
+  }
+  .mapo-section {
+    padding-top: 10%;
+    margin-left: 6%;
+    width: 100%;
+  }
 }
