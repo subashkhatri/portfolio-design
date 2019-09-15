@@ -1,206 +1,121 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="keywords" content="Porfolio Desigin">
-  <meta name="author" content="subash khatri">
-  <title>Subash khatri | Porfolio</title>
-  <meta charset="utf-8">
-  <title>Porfolio</title>
-  <!-- <link rel="stylesheet" href="css/app.css"> -->
-  <script src="js/app.js"></script>
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subash Khatri | Portfolio</title>
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <div class="main-container">
-
-    <!--Start of the Heading section -->
-    <div class="navbar-section">
-      <div class="header">
-        <div class="main-logo">
-          <h1 title="logo">Subash <span class="logo-space"> Khatri </span></h1>
-        </div>
-      </div>
-      <!-- End of Head Section -->
-      <!--start of Nav Bar -->
-      <div class="navbar">
-        <div class="fixed-navbar">
-          <ul>
-            <li><a href="#about">Home </a></li>
-            <li><a href="#project">MyProjects</a></li>
-            <li><a href="#contact">ContactMe </a></li>
-          </ul>
-        </div>
-
-      </div>
-      <!-- End of Nav Section -->
-
-    </div>
-
-    <!-- Start of div container for wrapping two items -->
-    <div class="container-wrapper">
-      <div class="row-profile">
-        <aside class="profile">
-          <img class="profile-img" src="/mnt/27E51A93148EC864/backup/img/me.jpeg"
-            alt="portfolio" width="300" height="300">
-        </aside>
-        <div class="general-informaition">
-          <p> <em>
-              <h3> Designation : Software Developer </h3>
-            </em> </p>
-
-        </div>
-      </div>
-
-      <!-- Start of About Section-->
-      <section id="about">
-        <strong>
-          <h3> Personal Information </h3>
-        </strong>
-        <p>I am a IT Professional by profession and I love coding. I have a great interest towards coding,reading novels
-          and listening and playing music. I was born on October 3, 1996 at Bhaktapur ,Nepal.
-          I love developing new softwares with inovative ideas for my clients and for fun. I aligned to software
-          development after I joined Information technologies. I have worked as intern at a IT company named Pravax
-          Enterprises Solution
-          for three months.I have an aim to be a person who is satisfied with work, so for this region i have chosed
-          become a <b>Software Engineer</b>. I am also engaged in Music field as I play guitar. I listen to all sort of
-          musics but favrouite are the clasic rock and roll bands song.
-          I am interested in history and new technologies changes. I love reading about places of Nepal and their
-          history.</p>
-        <br><br><br>
-        <div><a href="mailto:subashkhatri165@gmail.com" class="section-btn btn-success">HIRE ME!</a></div>
-
-      </section>
-    </div>
-
-    <!-- End of About section -->
-    <!-- Start of div project section -->
-    <br>
-
-
-    <div id="project" class="row-project">
-      <div class="box1">
-        <img class="img-responsive" src="/mnt/27E51A93148EC864/backup/imgg/logo.jpg"
-          alt="projects-1">
-        <figcaption>
-          <h1 class="div-highlight">Dynamic Website</h1>
-        </figcaption>
-        <p class="div-par"> I made a website using laravel </p>
-        <a href="#" class="section-btn btn-success btn-pad">READ MORE</a>
-      </div>
-      <div class="box2">
-        <img class="img-responsive" src="/mnt/27E51A93148EC864/backup/img/url.png"
-          alt="projects-2">
-        <figcaption>
-          <h1 class="div-highlight">Url shortner</h1>
-        </figcaption>
-        <p class="div-par"> I made a url shornter app in Nodejs</p>
-        <a href="#" class="section-btn btn-success btn-pad">READ MORE</a>
-      </div>
-      <div class="box3">
-        <img class="img-responsive" src="/mnt/27E51A93148EC864/backup/img/college.png"
-          alt="projects-3">
-        <figcaption>
-          <h1 class="div-highlight"> School App</h1>
-        </figcaption>
-
-        <p class="div-par"> I made a school app in android studio.</p>
-        <a href="#" class="section-btn btn-success">READ MORE</a>
-      </div>
-    </div>
-
-
-    <!-- End of projects section -->
-
-    <div class="mapo-container">
-      <div class="row">
-        <!-- Start of contact form -->
-        <div id="contact" class="contactform">
-
-          <h2>Contact <span>Form</span></h2>
-          <form id="myform" action="#">
-            <div>
-              <input type="text" name="name" placeholder=" Your Name"><br>
-              <span id="fname"></span>
-            </div>
-            <br>
-            <div>
-              <input type="email" placeholder=" Email@email.com" name="email"><br>
-              <span id="femai"></span>
-            </div>
-            <br>
-            <div>
-              <textarea name="message" rows="8" placeholder=" leave Message! "></textarea>
-            </div>
-            <br>
-            <a href="#!" class="section-contact-btn" onclick="return validate()">Get in touch</a>
-            <!-- <button class="btn-contact" type="submit" name="contact">Get in touch </button> -->
-          </form>
-
-        </div>
-
-        <!-- End of contact form Section -->
-        <div class="mapo-section">
-          <div class="mapouter">
-            <div class="gmap_canvas">
-              <iframe id="gmap_canvas"
-                src="https://maps.google.com/maps?q=Bhaktapur%2C%20Nepal&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-            <style>
-              .mapouter {
-                height: 480px;
-                width: 600px;
-              }
-
-              .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 500px;
-                width: 600px;
-              }
-            </style>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- footer section-->
-    <footer>
-      <div class="container-footer">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="footer-copyright">
-              <p>Copyright &copy; 2019~subashkhatri
-
-                | web Design</p>
-            </div>
-            <ul class="social-icon">
-              <li><a href="#"><img src="/mnt/27E51A93148EC864/backup/img/fb.png" alt="fb-subash" width="60"
-                    height="60"></a></li>
-              <li><a href="#"><img src="/home/subash-khatri/Desktop/project/portfolio_design/img/git.png"
-                    alt="git-subash" width="60" height="60"></a></li>
-              <li><a href="#"><img src="/mnt/27E51A93148EC864/backup/img
-                /lin.png.jpeg" alt="lin"></a></li>
-              <li><a href="#"><img src="/mnt/27E51A93148EC864/backup/img/twitter.png" width="60" height="60"
-                    alt="twitter-subash"></a></li>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="!#">Home</a></li>
+                <li><a href="!#">About</a></li>
+                <li><a href="!#">Services</a></li>
+                <li><a href="!#">Contact</a></li>
             </ul>
-          </div>
-        </div>
-      </div>
+        </nav>
+        <section class="top-container">
+            <header class="showcase">
+                <h1>Software Developer </h1>
+            </header>
+            <div class="top-box top-box-a">
+                <h2>About Me</h2>
+                <p class="p-about">I am a IT Professional by profession and I love coding. I have a great interest towards coding,reading novels
+                        and listening and playing music. I was born on October 3, 1996 at Bhaktapur ,Nepal.
+                        I love developing new softwares with inovative ideas for my clients and for fun. I aligned to software
+                        development after I joined Information technologies. I have worked as intern at a IT company named Pravax
+                        Enterprises Solution
+                        for three months.I have an aim to be a person who is satisfied with work, so for this region i have chosed
+                        become a <b>Software Engineer</b>. I am also engaged in Music field as I play guitar. I listen to all sort of
+                        musics but favrouite are the clasic rock and roll bands song.
+                        I am interested in history and new technologies changes. I love reading about places of Nepal and their
+                        history.</p>
+                <a href="" class="btn">HIRE ME</a>
+            </div>
+        </section>
+        <!-- Boxes Section -->
+        <section class="boxes">
+            <div class="box">
+                <i class="fas fa-gem fa-4x"></i>
+                <h3>Ruby Project</h3>
+                <p>Developed several CLI application in ruby. Using th concept of object-oriented, I developed a cli version of TIC TAC TOE game </p>
+                <a href="" class="btn">Demo</a>
+            </div>
+            <div class="box">
+                    <i class="fab fa-html5 fa-4x"></i>
+                    <h3>Html5, CSS and JavaScript Project</h3>
+                    <p>I have developed diffrent designs of the website using html, css and javascript. According to the requirement of clients , I have created more than 10 designs of different websites</p>
+                    <a href="" class="btn">Demo</a>
+                    
+                </div>
+                <div class="box">
+                        <i class="fab fa-laravel fa-4x"></i>
+                        <h3>Laravel</h3>
+                        <p>I have developed ecommerce website, travel website and many blogging websiste in laravel5 and above versions</p>
+                        <a href="" class="btn">Demo</a>
+                    </div>
+                    <div class="box">
+                            <i class="fas fa-code fa-4x"></i>
+                            <h3>Java Project</h3>
+                            <p>I have used andriod studio for creating a mobile application.</p>
+                            <a href="" class="btn">Demo</a>
+                        </div>
+        </section>
+        <!-- Info Section -->
+        <section class="info">
+            <img src="img/cover.jpg" alt="picture">
+            <div>
+                <h2>Skills</h2>
+                <p>I have done several projects design in HTML CSS and JavaScript from past
+                    4 years.I have core concept of obeject-oriented languages such as PHP and Java.
+                    As MVC frame works are famous, I have done several projects in using Laravel and Ruby. 
+                    I also have build a node js app using express framework of javascript.To see the works that
+                    I have completed ..click the link below.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="form">
+                <form id="myform" action="#" >
+                        <div>
+                          <input type="text" name="name" placeholder=" Your Name"><br>
+                        </div>
+                        <br>
+                        <div>
+                          <input type="email" placeholder=" Email@email.com" name="email"><br>
+                        </div>
+                        <br>
+                        <div>
+                          <textarea name="message" rows="8" placeholder=" leave Message! "></textarea>
+                        </div>
+                        <br>                     
+                        <a href="#!" class="btn">Get in touch</a>
+                      </form>
+                    </div>
+                        <div class="right-box">
+                                <i class="fas fa-users fa-4x"></i>
+                                <h3>How to reach me?</h3>
+                                <p><strong>Address:</strong> Bageshwori 01, Bhaktapur, Nagarkot Road</p>
+                                <p><strong>Phone no:</strong> (+977) 9860001807</p>
+                                <a href="mailto:subashkhatri165@gmail.com" class="btn">Email ME</a>
+                            </div>
+            
+        </section>
+        <!-- Footer -->
+        <footer>
+                <p> Subash-Khatri &copy; portfolio-2019
+        </footer>
 
-    </footer>
-    <!-- End of Footer sectino-->
-
-  </div>
-  <!-- <script src="js/app.js"></script>
-   -->
-
+    </div>
+    <!-- Wrapper Ends Here -->
 
 </body>
 
